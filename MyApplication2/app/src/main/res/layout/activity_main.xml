@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextNIM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_nim"
+        android:padding="12dp"
+        android:inputType="number"
+        android:autofillHints="username" />
+
+    <EditText
+        android:id="@+id/editTextNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_nama"
+        android:padding="12dp"
+        android:inputType="text"
+        android:autofillHints="name" />
+
+
+    <TextView
+        android:id="@+id/textViewTanggalLahir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_tanggal_lahir"
+        android:padding="14dp"
+        android:clickable="true"
+        android:focusable="true" />
+
+
+    <RadioGroup
+        android:id="@+id/radioGroupJenisKelamin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/radioButtonLakiLaki"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_laki_laki" />
+        <RadioButton
+            android:id="@+id/radioButtonPerempuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_perempuan" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radioGroupHubungan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/radioButtonOrangTua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_orang_tua" /> <!-- Menggunakan sumber daya string -->
+        <RadioButton
+            android:id="@+id/radioButtonSuamiIstri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_suami_istri" /> <!-- Menggunakan sumber daya string -->
+        <RadioButton
+            android:id="@+id/radioButtonAnak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_anak" /> <!-- Menggunakan sumber daya string -->
+        <RadioButton
+            android:id="@+id/radioButtonKerabat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_kerabat" /> <!-- Menggunakan sumber daya string -->
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_next" />
+</LinearLayout>

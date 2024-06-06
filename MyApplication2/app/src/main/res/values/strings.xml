@@ -1,0 +1,13 @@
+<resources>
+    <string name="hint_nim">NIM</string>
+    <string name="hint_nama">Nama</string>
+    <string name="hint_tanggal_lahir">Tanggal Lahir</string>
+    <string name="button_next">Next</string>
+    <string name="radio_laki_laki">Laki-laki</string>
+    <string name="radio_perempuan">Perempuan</string>
+    <string name="radio_orang_tua">Orang Tua</string>
+    <string name="radio_suami_istri">Suami/Istri</string>
+    <string name="radio_anak">Anak</string>
+    <string name="radio_kerabat">Kerabat</string>
+
+</resources>
